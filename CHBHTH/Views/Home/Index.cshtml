@@ -1,5 +1,5 @@
 ﻿@{
-    ViewBag.Title = "HUT SHOP";
+    ViewBag.Title = "Cửa hàng vật liệu";
 
     Layout = "~/Views/Shared/_LayoutClient2.cshtml";
 }
@@ -11,7 +11,9 @@
     <center>
         <div class="row">
             <div class="col-md-16">
-                <img src="~/Images/TRANG-CHU-1.jpg" width="95%" />
+                <img src="~/Images/Trangchu3.png" style="width: 100%;" />
+                
+                
             </div>
         </div>
     </center>
@@ -21,10 +23,10 @@
     <center>
         <div class="row">
             <div class="col-md-4">
-                <img src="~/Images/KHUYENMAI.jpg" class="img-responsive" alt="" width="80%" />
+                <img src="~/Images/KHUYENMAI.png" class="img-responsive" alt="" width="70%" />
             </div>
             <div class="col-md-4">
-                <img src="~/Images/QUATANG.jpg" class="img-responsive" alt="" width="80%" />
+                <img src="~/Images/KhuyenMai2.jpg" class="img-responsive" alt="" width="80%" />
             </div>
             <div class="col-md-4">
                 <img src="~/Images/THANHLY.jpg" class="img-responsive" alt="" width="80%" />
@@ -33,16 +35,7 @@
     </center>
 </div> <br />
 
-    @Html.Action("suapartial", "sanpham")
+    @Html.Action("suapartial", "Home")
 
-    @Html.Action("dauanpartial", "sanpham")
-
-<div>
-    <center>
-        <img class="img-responsive" src="~/Images/BANNER-XAKHO.jpg" width="80%" />
-    </center>
-</div> <br />
-
-    @Html.Action("raupartial", "sanpham")
-
+   
 

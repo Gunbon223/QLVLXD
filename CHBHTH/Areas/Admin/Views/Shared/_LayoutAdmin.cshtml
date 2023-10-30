@@ -24,7 +24,7 @@
     @{ var u = Session["use"] as CHBHTH.Models.TaiKhoan;}
 
     <nav class="sb-topnav navbar navbar-expand navbar-dark bg-success">
-        <h3>@Html.ActionLink("HUT SHOP", "Index", "Home", null, new { @class = "menu1" })</h3>
+        <h3>@Html.ActionLink("Quản lý kho", "Index", "Home", null, new { @class = "menu1" })</h3>
         <button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#">
             <i class="fas fa-bars"></i>
         </button><!-- Navbar Search-->
@@ -105,14 +105,6 @@
                     @RenderBody()
                 </div>
             </main>
-            <footer class="py-4 bg-light mt-auto">
-                <div class="container-fluid">
-                    <div class="d-flex align-items-center justify-content-between small">
-                        <div class="text-muted">Copyright &copy; HUT SHOP 2023</div>
-
-                    </div>
-                </div>
-            </footer>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>

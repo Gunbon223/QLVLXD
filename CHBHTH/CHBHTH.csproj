@@ -63,10 +63,10 @@
       <HintPath>..\packages\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.2.0.0\lib\Net471\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="PagedList">
+    <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
       <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
     </Reference>
-    <Reference Include="PagedList.Mvc">
+    <Reference Include="PagedList.Mvc, Version=4.5.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
       <HintPath>..\packages\PagedList.Mvc.4.5.0.0\lib\net40\PagedList.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="System" />
@@ -1234,27 +1234,92 @@
     <Content Include="Content\PagedList.css" />
     <Content Include="Content\Slide.css" />
     <Content Include="Content\Style.css" />
+    <Content Include="csslayout1\css\bootstrap.min.css" />
+    <Content Include="csslayout1\css\elegant-icons.css" />
+    <Content Include="csslayout1\css\font-awesome.min.css" />
+    <Content Include="csslayout1\css\jquery-ui.min.css" />
+    <Content Include="csslayout1\css\nice-select.css" />
+    <Content Include="csslayout1\css\owl.carousel.min.css" />
+    <Content Include="csslayout1\css\slicknav.min.css" />
+    <Content Include="csslayout1\css\style.css" />
+    <Content Include="csslayout1\fonts\ElegantIcons.svg" />
+    <Content Include="csslayout1\fonts\fontawesome-webfont.svg" />
+    <Content Include="csslayout1\img\banner\banner-1.jpg" />
+    <Content Include="csslayout1\img\banner\banner-2.jpg" />
+    <Content Include="csslayout1\img\blog\blog-1.jpg" />
+    <Content Include="csslayout1\img\blog\blog-2.jpg" />
+    <Content Include="csslayout1\img\blog\blog-3.jpg" />
+    <Content Include="csslayout1\img\blog\blog-4.jpg" />
+    <Content Include="csslayout1\img\blog\blog-5.jpg" />
+    <Content Include="csslayout1\img\blog\blog-6.jpg" />
+    <Content Include="csslayout1\img\blog\details\details-author.jpg" />
+    <Content Include="csslayout1\img\blog\details\details-hero.jpg" />
+    <Content Include="csslayout1\img\blog\details\details-pic.jpg" />
+    <Content Include="csslayout1\img\blog\sidebar\sr-1.jpg" />
+    <Content Include="csslayout1\img\blog\sidebar\sr-2.jpg" />
+    <Content Include="csslayout1\img\blog\sidebar\sr-3.jpg" />
+    <Content Include="csslayout1\img\breadcrumb.jpg" />
+    <Content Include="csslayout1\img\cart\cart-1.jpg" />
+    <Content Include="csslayout1\img\cart\cart-2.jpg" />
+    <Content Include="csslayout1\img\cart\cart-3.jpg" />
+    <Content Include="csslayout1\img\categories\cat-1.jpg" />
+    <Content Include="csslayout1\img\categories\cat-2.jpg" />
+    <Content Include="csslayout1\img\categories\cat-3.jpg" />
+    <Content Include="csslayout1\img\categories\cat-4.jpg" />
+    <Content Include="csslayout1\img\categories\cat-5.jpg" />
+    <Content Include="csslayout1\img\featured\feature-1.jpg" />
+    <Content Include="csslayout1\img\featured\feature-2.jpg" />
+    <Content Include="csslayout1\img\featured\feature-3.jpg" />
+    <Content Include="csslayout1\img\featured\feature-4.jpg" />
+    <Content Include="csslayout1\img\featured\feature-5.jpg" />
+    <Content Include="csslayout1\img\featured\feature-6.jpg" />
+    <Content Include="csslayout1\img\featured\feature-7.jpg" />
+    <Content Include="csslayout1\img\featured\feature-8.jpg" />
+    <Content Include="csslayout1\img\hero\banner.jpg" />
+    <Content Include="csslayout1\img\language.png" />
+    <Content Include="csslayout1\img\latest-product\lp-1.jpg" />
+    <Content Include="csslayout1\img\latest-product\lp-2.jpg" />
+    <Content Include="csslayout1\img\latest-product\lp-3.jpg" />
+    <Content Include="csslayout1\img\logo.png" />
+    <Content Include="csslayout1\img\payment-item.png" />
+    <Content Include="csslayout1\img\product\details\product-details-1.jpg" />
+    <Content Include="csslayout1\img\product\details\product-details-2.jpg" />
+    <Content Include="csslayout1\img\product\details\product-details-3.jpg" />
+    <Content Include="csslayout1\img\product\details\product-details-4.jpg" />
+    <Content Include="csslayout1\img\product\details\product-details-5.jpg" />
+    <Content Include="csslayout1\img\product\details\thumb-1.jpg" />
+    <Content Include="csslayout1\img\product\details\thumb-2.jpg" />
+    <Content Include="csslayout1\img\product\details\thumb-3.jpg" />
+    <Content Include="csslayout1\img\product\details\thumb-4.jpg" />
+    <Content Include="csslayout1\img\product\discount\pd-1.jpg" />
+    <Content Include="csslayout1\img\product\discount\pd-2.jpg" />
+    <Content Include="csslayout1\img\product\discount\pd-3.jpg" />
+    <Content Include="csslayout1\img\product\discount\pd-4.jpg" />
+    <Content Include="csslayout1\img\product\discount\pd-5.jpg" />
+    <Content Include="csslayout1\img\product\discount\pd-6.jpg" />
+    <Content Include="csslayout1\img\product\product-1.jpg" />
+    <Content Include="csslayout1\img\product\product-10.jpg" />
+    <Content Include="csslayout1\img\product\product-11.jpg" />
+    <Content Include="csslayout1\img\product\product-12.jpg" />
+    <Content Include="csslayout1\img\product\product-2.jpg" />
+    <Content Include="csslayout1\img\product\product-3.jpg" />
+    <Content Include="csslayout1\img\product\product-4.jpg" />
+    <Content Include="csslayout1\img\product\product-5.jpg" />
+    <Content Include="csslayout1\img\product\product-6.jpg" />
+    <Content Include="csslayout1\img\product\product-7.jpg" />
+    <Content Include="csslayout1\img\product\product-8.jpg" />
+    <Content Include="csslayout1\img\product\product-9.jpg" />
+    <Content Include="csslayout1\js\bootstrap.min.js" />
+    <Content Include="csslayout1\js\jquery-3.3.1.min.js" />
+    <Content Include="csslayout1\js\jquery-ui.min.js" />
+    <Content Include="csslayout1\js\jquery.nice-select.min.js" />
+    <Content Include="csslayout1\js\jquery.slicknav.js" />
+    <Content Include="csslayout1\js\main.js" />
+    <Content Include="csslayout1\js\mixitup.min.js" />
+    <Content Include="csslayout1\js\owl.carousel.min.js" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Images\BANNER-XAKHO.jpg" />
-    <Content Include="Images\DAUAN-1.jpg" />
-    <Content Include="Images\DAUAN-2.png" />
-    <Content Include="Images\DAUAN-3.png" />
-    <Content Include="Images\DAUAN-4.jpg" />
-    <Content Include="Images\KHUYENMAI.jpg" />
-    <Content Include="Images\QUATANG.jpg" />
-    <Content Include="Images\RAU-1.jpg" />
-    <Content Include="Images\RAU-2.png" />
-    <Content Include="Images\RAU-3.png" />
-    <Content Include="Images\RAU-4.png" />
-    <Content Include="Images\SUA-1.png" />
-    <Content Include="Images\SUA-2.jpg" />
-    <Content Include="Images\SUA-3.png" />
-    <Content Include="Images\SUA-4.png" />
-    <Content Include="Images\THANHLY.jpg" />
-    <Content Include="Images\TRANG-CHU-1.jpg" />
-    <Content Include="Images\TRANG-CHU-2.png" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -1332,6 +1397,14 @@
     <Content Include="Areas\Assets\src\scss\_global.scss" />
     <Content Include="Areas\Assets\src\scss\_variables.scss" />
     <Content Include="Areas\Admin\Views\DonHangs\CTDetails.cshtml" />
+    <Content Include="csslayout1\fonts\ElegantIcons.eot" />
+    <Content Include="csslayout1\fonts\ElegantIcons.ttf" />
+    <Content Include="csslayout1\fonts\ElegantIcons.woff" />
+    <Content Include="csslayout1\fonts\fontawesome-webfont.eot" />
+    <Content Include="csslayout1\fonts\fontawesome-webfont.ttf" />
+    <Content Include="csslayout1\fonts\fontawesome-webfont.woff" />
+    <Content Include="csslayout1\fonts\fontawesome-webfont.woff2" />
+    <Content Include="csslayout1\fonts\FontAwesome.otf" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -1409,9 +1482,7 @@
     <Content Include="Areas\Admin\Views\ChiTietDonHangs\Index.cshtml" />
     <Content Include="Areas\Admin\Views\Thongkes\Index.cshtml" />
     <Content Include="Views\Shared\_LayoutClient.cshtml" />
-    <Content Include="Views\sanpham\suapartial.cshtml" />
-    <Content Include="Views\sanpham\dauanpartial.cshtml" />
-    <Content Include="Views\sanpham\raupartial.cshtml" />
+    <Content Include="Views\Home\suapartial.cshtml" />
     <Content Include="Views\sanpham\xemchitiet.cshtml" />
     <Content Include="Views\GioHang\GioHang.cshtml" />
     <Content Include="Views\GioHang\GioHangPartial.cshtml" />
@@ -1426,14 +1497,18 @@
     <Content Include="Views\tintuc\tintucpartital.cshtml" />
     <Content Include="Views\tintuc\xemchitiettintuc.cshtml" />
     <Content Include="Views\tintuc\Index.cshtml" />
-    <Content Include="Views\sanpham\Index.cshtml" />
+    <Content Include="Views\sanpham\index.cshtml" />
     <Content Include="Views\danhmuc\danhmucpartial.cshtml" />
     <Content Include="Views\sanpham\xemchitietdanhmuc.cshtml" />
     <Content Include="Views\Shared\_LayoutClient2.cshtml" />
+    <Content Include="Views\Shared\_Layout1.cshtml" />
+    <Content Include="Views\Home\xemchitiet.cshtml" />
+    <Content Include="Views\Home\xemchitietdanhmuc.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Areas\Admin\Data\" />
+    <Folder Include="Images\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />

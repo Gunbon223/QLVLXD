@@ -5,6 +5,8 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Data.Entity;
+using PagedList;
+using PagedList.Mvc;
 
 namespace CHBHTH.Controllers
 {
@@ -18,23 +20,7 @@ namespace CHBHTH.Controllers
             return View(sanPhams.ToList());
         }
 
-        public ActionResult suapartial()
-        {
-            var ip = db.SanPhams.Where(n => n.MaLoai == 1).Take(4).ToList();
-            return PartialView(ip);
-        }
-
-        public ActionResult raupartial()
-        {
-            var ip = db.SanPhams.Where(n => n.MaLoai == 2).Take(4).ToList();
-            return PartialView(ip);
-        }
-
-        public ActionResult dauanpartial()  
-        {
-            var ip = db.SanPhams.Where(n => n.MaLoai == 3).Take(4).ToList();
-            return PartialView(ip);
-        }
+       
 
         public ActionResult xemchitiet(int Masp = 0)
         {
