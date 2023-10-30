@@ -68,51 +68,6 @@
             </div>
         </nav>
 
-@*    <nav class="navbar navbar-expand-lg navbar-light text-bg-light">
-        <div class="container px-4 px-lg-5">
-            @Html.ActionLink("Cửa hàng vật liệu", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
-                    <li class="nav-item"> @Html.ActionLink("Giới thiệu", "About", "Home", new { area = "" }, new { @class = "nav-link activ" })</li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Sản phẩm </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li> @Html.ActionLink("Toàn bộ sản phẩm", "index", "sanpham", new { area = "" }, new { @class = "dropdown-item" }) </li>
-
-                            <li><hr class="dropdown-divider" /></li>
-                            <li> @Html.Action("danhmucpartial", "danhmuc", new { @class = "dropdown-item" }) </li>
-                        </ul>
-
-
-                    <li class="nav-item"> @Html.ActionLink("Tin tức", "Index", "TinTuc", new { area = "" }, new { @class = "nav-link activ" })</li>
-                    <li class="nav-item"> @Html.ActionLink("Liên hệ", "Contact", "Home", new { area = "" }, new { @class = "nav-link activ" })</li>
-                </ul>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <button class="btn btn-outline-secondary" type="submit">
-                            @Html.Action("GioHangPartial", "GioHang", new { @class = "giohang" })
-                        </button>
-                    </li>
-                    <li class="nav-item">
-                        @{
-                            if (u != null)
-                            {
-                                <a style="color: black" href="@Url.Action("Profile", "User", new { id = u.MaNguoiDung })">Xin chào: @u.Email</a>
-                                <br />
-                                <a style="color: red" href="/User/DangXuat"> ĐĂNG XUẤT</a>
-                            }
-                            else
-                            {
-                                @Html.ActionLink("Đăng nhập", "Dangnhap", "User", new { area = "" }, new { @class = "nav-link py-3 px-0 px-lg-3 rounded" })
-                            }
-                        }
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>*@
-
     <!-- Footer-->
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
