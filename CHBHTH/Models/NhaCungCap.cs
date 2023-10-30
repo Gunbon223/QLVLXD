@@ -16,10 +16,12 @@
         }
 
         [Display(Name = "Mã nhà cung cấp")]
+        [Required(ErrorMessage = "Vui lòng nhập mã nhà cung cấp")]
         [Key]
         public int MaNCC { get; set; }
 
         [Display(Name = "Tên nhà cung cấp")]
+        [Required(ErrorMessage = "Vui lòng nhập tên nhà cung cấp")]
         [StringLength(100)]
         public string TenNCC { get; set; }
 

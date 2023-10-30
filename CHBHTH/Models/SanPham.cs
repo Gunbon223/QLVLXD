@@ -15,7 +15,9 @@
             ChiTietDonHangs = new HashSet<ChiTietDonHang>();
         }
 
-        [Display(Name = "Mã sản phẩm")]        [Key]
+        [Display(Name = "Mã sản phẩm")]
+        [Required(ErrorMessage = "Vui lòng nhập mã sản phẩm")]
+        [Key]
 
         public int MaSP { get; set; }
 
@@ -31,19 +33,24 @@
         public decimal? GiaBan { get; set; }
 
         [Display(Name = "Số lượng")]
+        [Required(ErrorMessage = "Vui lòng nhập số lượng")]
         public int? Soluong { get; set; }
 
         [Display(Name = "Mô tả")]
+        [Required(ErrorMessage = "Vui lòng nhập mô tả")]
         [Column(TypeName = "ntext")]
         public string MoTa { get; set; }
 
         [Display(Name = "Mã loại")]
+        [Required(ErrorMessage = "Vui lòng nhập mã loại")]
         public int? MaLoai { get; set; }
 
         [Display(Name = "Nhà cung cấp")]
+        [Required(ErrorMessage = "Vui lòng nhập mã nhà cung cấp")]
         public int? MaNCC { get; set; }
 
         [Display(Name = "Ảnh bìa")]
+        [Required(ErrorMessage = "Vui lòng nhập ảnh")]
         [StringLength(100)]
         public string AnhSP { get; set; }
 

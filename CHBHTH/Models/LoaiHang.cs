@@ -16,10 +16,12 @@
         }
 
         [Display(Name = "Mã loại hàng")]
+        [Required(ErrorMessage = "Vui lòng nhập mã loại")]
         [Key]
         public int MaLoai { get; set; }
 
         [Display(Name = "Tên loại hàng")]
+        [Required(ErrorMessage = "Vui lòng nhập tên loại")]
         [StringLength(100)]
         public string TenLoai { get; set; }
 

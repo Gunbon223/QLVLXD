@@ -16,10 +16,12 @@
         }
 
         [Display(Name = "ID quyền")]
+        [Required(ErrorMessage = "Vui lòng nhập ID quyền")]
         [Key]
         public int IDQuyen { get; set; }
 
         [Display(Name = "Tên quyền")]
+        [Required(ErrorMessage = "Vui lòng nhập tên quyền")]
         [StringLength(20)]
         public string TenQuyen { get; set; }
 

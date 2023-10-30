@@ -11,13 +11,16 @@
     {
         [Key]
         [Display(Name = "Mã tin tức")]
+        [Required(ErrorMessage = "Vui lòng nhập mã tin")]
         public int MaTT { get; set; }
 
         [StringLength(100)]
         [Display(Name = "Tiêu đề")]
+        [Required(ErrorMessage = "Vui lòng nhập tiêu đề")]
         public string TieuDe { get; set; }
 
         [Display(Name = "Nội dung")]
+        [Required(ErrorMessage = "Vui lòng nhập nội dung")]
         [Column(TypeName = "ntext")]
         public string NoiDung { get; set; }
     }
