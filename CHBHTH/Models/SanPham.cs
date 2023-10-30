@@ -15,15 +15,19 @@
             ChiTietDonHangs = new HashSet<ChiTietDonHang>();
         }
 
-        [Display(Name = "Mã sản phẩm")]
-        [Key]
+        [Display(Name = "Mã sản phẩm")]        [Key]
+
         public int MaSP { get; set; }
 
         [Display(Name = "Tên sản phẩm")]
+        [Required(ErrorMessage = "Vui lòng nhập tên sản phẩm")]
+
         [StringLength(100)]
         public string TenSP { get; set; }
 
         [Display(Name = "Giá bán")]
+        [Required(ErrorMessage = "Vui lòng nhập tên giá bán")]
+
         public decimal? GiaBan { get; set; }
 
         [Display(Name = "Số lượng")]

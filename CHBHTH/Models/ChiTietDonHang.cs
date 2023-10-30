@@ -9,7 +9,7 @@
     [Table("ChiTietDonHang")]
     public partial class ChiTietDonHang
     {
-        [Display(Name = "Chi tiết mã đơn hàng")]
+        [Display(Name = "Chi tiết ")]
         [Required(ErrorMessage = "Vui lòng nhập tên nhà cung cấp")]
         [Key]
         public int CTMaDon { get; set; }
