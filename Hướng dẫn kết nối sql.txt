@@ -1,0 +1,4 @@
+1. Chạy file sql
+2. Kết nối sql với web
+3. Sửa file webconfig với giá trị data source và password của user sa
+	<add name="QLbanhang" connectionString="data source=*Tên Sever Sql*;initial catalog=CHBHTH;persist security info=True;user id=sa;password=*Mật khẩu SQl*;MultipleActiveResultSets=True;App=EntityFramework" providerName="System.Data.SqlClient" />
