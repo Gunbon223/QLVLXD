@@ -101,6 +101,8 @@ ON DELETE CASCADE;
 ALTER TABLE ChiTietDonHang
 ADD CONSTRAINT FK_cthd_sp FOREIGN KEY (MaSP) REFERENCES SanPham(MaSP)
 ON DELETE CASCADE;
+
+
 /*Phân quyền*/
 insert into PhanQuyen values ('Adminstrator');
 insert into PhanQuyen values ('Member');
@@ -112,9 +114,9 @@ insert into TaiKhoan values (N'Nguyễn Văn C','Admin@gmail.com','0123456789','
 
 
 /*Loại hàng*/
-insert into LoaiHang values (N'Vật liệu xây dựng cơ bản');--sat,thep,gachxay,...
-insert into LoaiHang values (N'Vật liệu xây dựng kết cấu');--xi mang
-insert into LoaiHang values (N'vật liệu xây dựng hoàn thiện');--Gach op, san nha, tuong, tran,...
+insert into LoaiHang values (N'Vật liệu xây dựng cơ bản');
+insert into LoaiHang values (N'Vật liệu xây dựng kết cấu');
+insert into LoaiHang values (N'vật liệu xây dựng hoàn thiện');
 
 /*Nhà cung cấp*/
 insert into NhaCungCap values (N'Hòa Phát');
