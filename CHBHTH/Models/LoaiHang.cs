@@ -16,7 +16,7 @@
         }
 
         [Display(Name = "Mã loại hàng")]
-        [Required(ErrorMessage = "Vui lòng nhập mã loại")]
+       
         [Key]
         public int MaLoai { get; set; }
 

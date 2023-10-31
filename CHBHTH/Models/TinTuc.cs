@@ -10,7 +10,7 @@
     public partial class TinTuc
     {
         [Key]
-        [Display(Name = "Mã tin tức")]
+        
         [Required(ErrorMessage = "Vui lòng nhập mã tin")]
         public int MaTT { get; set; }
 

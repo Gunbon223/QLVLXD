@@ -10,12 +10,12 @@
     public partial class ChiTietDonHang
     {
         [Display(Name = "Chi tiết ")]
-        [Required(ErrorMessage = "Vui lòng nhập chi tiet")]
+        
         [Key]
         public int CTMaDon { get; set; }
 
         [Display(Name = "Mã đơn hàng")]
-        [Required(ErrorMessage = "Vui lòng nhập mã đơn")]
+       
         public int MaDon { get; set; }
 
         [Display(Name = "Tên sản phẩm")]

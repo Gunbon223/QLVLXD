@@ -16,7 +16,7 @@
         }
 
         [Display(Name = "Mã nhà cung cấp")]
-        [Required(ErrorMessage = "Vui lòng nhập mã nhà cung cấp")]
+       
         [Key]
         public int MaNCC { get; set; }
 

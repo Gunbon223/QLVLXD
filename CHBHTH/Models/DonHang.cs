@@ -16,7 +16,7 @@
         }
 
         [Display(Name = "Mã đơn hàng")]
-        [Required(ErrorMessage = "Vui lòng nhập mã đơn")]
+       
         [Key]
         public int MaDon { get; set; }
 
@@ -26,11 +26,11 @@
         public DateTime? NgayDat { get; set; }
 
         [Display(Name = "Tình trạng đơn hàng")]
-        [Required(ErrorMessage = "Vui lòng nhập tình trạng")]
+        
         public int? TinhTrang { get; set; }
 
         [Display(Name = "Hình thức thanh toán")]
-        [Required(ErrorMessage = "Vui lòng nhập phương thức thanh toán")]
+       
 
         public int? ThanhToan { get; set; }
 
@@ -40,11 +40,11 @@
         public string DiaChiNhanHang { get; set; }
 
         [Display(Name = "Người đặt")]
-        [Required(ErrorMessage = "Vui lòng nhập mã người dùng")]
+       
         public int? MaNguoiDung { get; set; }
 
         [Display(Name = "Tổng tiền")]
-        [Required(ErrorMessage = "Vui lòng nhập tổng tiền")]
+        
         public decimal? TongTien { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

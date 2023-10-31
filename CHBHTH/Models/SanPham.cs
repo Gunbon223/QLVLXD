@@ -16,7 +16,7 @@
         }
 
         [Display(Name = "Mã sản phẩm")]
-        [Required(ErrorMessage = "Vui lòng nhập mã sản phẩm")]
+       
         [Key]
 
         public int MaSP { get; set; }
@@ -42,11 +42,11 @@
         public string MoTa { get; set; }
 
         [Display(Name = "Mã loại")]
-        [Required(ErrorMessage = "Vui lòng nhập mã loại")]
+        
         public int? MaLoai { get; set; }
 
         [Display(Name = "Nhà cung cấp")]
-        [Required(ErrorMessage = "Vui lòng nhập mã nhà cung cấp")]
+    
         public int? MaNCC { get; set; }
 
         [Display(Name = "Ảnh bìa")]

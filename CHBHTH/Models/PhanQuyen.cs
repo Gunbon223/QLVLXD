@@ -16,7 +16,7 @@
         }
 
         [Display(Name = "ID quyền")]
-        [Required(ErrorMessage = "Vui lòng nhập ID quyền")]
+        
         [Key]
         public int IDQuyen { get; set; }
 
