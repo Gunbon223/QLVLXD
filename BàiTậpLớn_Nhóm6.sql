@@ -143,4 +143,9 @@ insert into ChiTietDonHang values (1,3,1,22000,22000,1);
 insert into ChiTietDonHang values (2,1,1,18000,18000,1);
 
 /*Tin Tức*/
-insert into TinTuc values (N'Sức khỏe mỗi ngày',N'Ngày nay việc đi mua thực phẩm là quan trọng trong mỗi chúng ta');
+insert into TinTuc values (N'Cách dùng vật liệu xây dựng',N'Khi lựa chọn vật liệu xây dựng,
+hãy xem xét các yếu tố như độ bền, tính năng cách nhiệt, khả năng chống thấm nước và hiệu suất năng lượng. 
+Đảm bảo vật liệu được sử dụng phù hợp với môi trường xây dựng và đáp ứng các yêu cầu kỹ thuật và an toàn cần thiết.');
+insert into TinTuc values (N'Tiết kiệm năng lượng trong xây dựng',N'Sử dụng các vật liệu xây dựng có khả năng cách nhiệt tốt và thiết kế hợp lý để tận dụng ánh sáng tự nhiên và giảm sử dụng điện năng. Các giải pháp như lắp đặt cửa và cửa sổ cách nhiệt, bố trí hợp lý của hệ thống chiếu sáng và điều hòa nhiệt độ có thể giúp tiết kiệm năng lượng và giảm chi phí vận hành.')
+insert into TinTuc values (N'Tính bền vững trong xây dựng',N'Khi xây dựng, hãy lựa chọn vật liệu tái chế và tái sử dụng để giảm lượng chất thải xây dựng và tác động môi trường. Sử dụng các phương pháp xây dựng bền vững như hệ thống thu năng lượng mặt trời, thu gom và sử dụng nước mưa, và thiết kế hợp lý để tối ưu hóa sự tương tác giữa công trình và môi trường xung quanh.')
+insert into TinTuc values (N'Quản lý dự án xây dựng',N'Để đảm bảo chất lượng và tiến độ xây dựng, quản lý dự án là rất quan trọng. Bạn nên có kế hoạch chi tiết, lựa chọn nhà thầu và nhân viên có kinh nghiệm, và thiết lập quy trình kiểm soát chất lượng. Đồng thời, lưu ý theo dõi tài chính dự án và đảm bảo tuân thủ các quy định pháp luật và an toàn lao động.')
